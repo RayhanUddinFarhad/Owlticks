@@ -4,6 +4,7 @@ import Features from "./Features";
 import Frameworks from "./Frameworks";
 import Issue from "./Issue";
 import Onpremise from "./Onpremise";
+import PricingPlan from "./PricingPlan";
 import Steps from "./Steps";
 import Support from "./Support";
 
@@ -21,6 +22,7 @@ const Home = () => {
         <Frameworks></Frameworks>
         <Onpremise></Onpremise>
         <Features></Features>
+        <PricingPlan></PricingPlan>
 
        </div>
     );
