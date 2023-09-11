@@ -7,6 +7,7 @@ import Onpremise from "./Onpremise";
 import PricingPlan from "./PricingPlan";
 import Steps from "./Steps";
 import Support from "./Support";
+import Testimonals from "./Testimonals";
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
         <Onpremise></Onpremise>
         <Features></Features>
         <PricingPlan></PricingPlan>
+        <Testimonals></Testimonals>
 
        </div>
     );
