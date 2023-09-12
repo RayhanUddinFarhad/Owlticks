@@ -71,7 +71,7 @@ const Footer = () => {
         <footer style={{
             backgroundImage:
               "radial-gradient(144.66% 144.66% at 100% 0%, #C9E3FF 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(180deg, #FFF 0%, #DAF4FF 100%)",
-          }} className="text-gray-500  px-4 py-5 max-w-screen-xl mx-auto md:px-8 mt-20 relative">
+          }} className="text-gray-500  px-4 py-5  mx-auto md:px-8 mt-20 relative">
         <div className="gap-6  md:flex">
         <img src={logo} className=" w-32 object-contain top-0" />
 

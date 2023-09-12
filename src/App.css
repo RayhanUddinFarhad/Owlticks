@@ -9,7 +9,10 @@
 
 }
   
-
+.bg-gradient-active {
+  background: linear-gradient(270deg, #FFF 0%, #3B82F6 444.17%);
+  
+}
 
 /* #root {
   max-width: 1280px;

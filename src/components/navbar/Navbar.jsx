@@ -136,7 +136,7 @@ const Navbar = () => {
                                     <li key={idx}>
                                         {
                                             item.isDrapdown ? (
-                                                <button className="w-full flex items-center justify-between gap-1 text-gray-700 hover:text-indigo-600"
+                                                <button className="w-full flex items-center justify-between gap-1 text-gray-700 hover:text-indigo-600 "
                                                     onClick={() => setDrapdownState({ idx, isActive: !drapdownState.isActive })}
                                                 >
                                                     {item.title}
@@ -161,7 +161,7 @@ const Navbar = () => {
                                         }
                                         {
                                             item.isDrapdown && drapdownState.idx == idx && drapdownState.isActive ? (
-                                                <div className="mt-6 inset-x-0 top-20 w-full md:absolute md:border-y md:shadow-md md:mt-0">
+                                                <div className="mt-6 inset-x-0 top-20 w-full md:absolute md:border-y md:shadow-md md:mt-0 bg-white">
                                                     <ul className='max-w-screen-xl mx-auto grid items-center gap-6 md:p-8 md:grid-cols-2 lg:grid-cols-3'>
                                                         {item?.navs.map((dropdownItem, idx) => (
                                                             <li key={idx}>

@@ -39,9 +39,9 @@ with <span className="text-[#037AF8]"> Owltics</span></h1>
 
 
             </div>
-            <div>
+            <div className=' h-full'>
 
-    <img className='max-w-2xl' src={image} alt="" />
+    <img className='max-w-xl ' src={image} alt="" />
 </div>
             
         </div>
